@@ -1,0 +1,193 @@
+.fp-viewing-0-3{
+    background: #131313
+}
+.invest-new{
+    position: relative;
+    .project-pics__item{
+        transform: scale(1);
+        opacity: 1;    
+    }
+    .project-pics__item_1{
+        width: 47%!important;
+    }   
+    .projects-slider__title_big{
+        top: auto;
+        bottom: -20px;
+        color: #005592;
+        opacity: 0.1;
+        font-size: 42.82rem;
+        left: -1.5%;
+    }
+    .projects-slider{
+        width: 85.7%!important;
+    }
+    .projects-slider__slider-title{
+        font-size: 5.6rem;
+        line-height: 6rem;
+        span{
+            display: block;
+            font-size: 3.4rem;
+            line-height: 4rem;
+        }
+    }
+    .projects-slider__suptitle{
+        color: #FFF;
+        font-size: 5rem;
+    }
+    .more-info-link{
+        display: inline-block;
+        width: auto;
+        min-width: 23.7rem;
+        height: 4rem;
+        color: #005592;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-top: 1.4rem;
+        margin-top: 3rem!important;
+        &:hover{
+            background: rgba(255,255,255,0.8);
+        }
+    }
+    .projects-slider__img-box{
+        top: auto;
+        bottom: 0;
+        transform:none;
+        left: auto;
+        right: 0px;
+        width: 43%;
+        z-index: 100;
+        pointer-events: none;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+}
+.main-page .invest-new.projects-page.inner-page .projects-slider__slider-title{
+    padding-top: 4.9%!important
+}
+body.main-page .invest-new .projects-slider__title{
+    left: -12rem;
+}
+.fp-viewing-0-3{
+    .copyright__content{
+        color: #a6a9af!important;
+        left: 0px;
+    }
+}
+
+@media screen and (max-height: 850px) and (min-width: 1200px) {
+    .main-page .invest-new.projects-page.inner-page .projects-slider__slider-title{
+        padding-top: 9.9%!important
+    }
+    .main-page .inner-page.invest-new .projects-slider__img-box{
+        width: 47%;
+    }
+    .main-page .inner-page.invest-new .project-pics{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .main-page .invest-new.projects-page.inner-page .projects-slider__slider-title{
+        padding-top: 14%!important
+    }
+    .main-page .inner-page.invest-new .project-pics{
+        width: 55%;
+    }
+    body.main-page .invest-new .projects-slider__title{
+        left: -10rem;
+        top: 30%;
+    }
+    .invest-new .projects-slider__title_big{
+        font-size: 20rem;
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .invest-new .projects-slider{
+        width: 100%!important
+    }
+    .invest-new .projects-slider__slider-title{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .invest-new .projects-slider__slider-title span{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .invest-new .projects-slider__title_big{
+        font-size: 10rem;
+        top: auto!important;
+        bottom: 10%!important;
+        left: 0;
+        transform: none;
+    }
+}
+@media screen and (max-width: 370px) {
+    .invest-new .projects-slider__slider-title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-top: 5rem;
+    }
+    .invest-new .projects-slider__slider-title span{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media screen and (max-width: 767px) and (max-height: 500px) {
+    .invest-new .projects-slider__slider-title{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-top: 11rem;
+    }
+    .invest-new .projects-slider__slider-title span{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .inner-page .more-info-link_slider{
+        margin-top: 15px!important;
+    }
+    .invest-new .projects-slider__title_big{
+        font-size: 14rem;
+        top: auto!important;
+        bottom: 10%!important;
+        left: 0;
+        transform: none;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .main-page .invest-new.projects-page.inner-page .projects-slider__slider-title{
+        padding-top: 0px!important
+    }
+    .invest-new .projects-slider__title_big{
+        font-size: 15rem;
+        bottom: 20%;
+    }
+}
+@media screen and (max-height: 850px) and (min-width: 1600px) {
+    .main-page .inner-page.invest-new .project-pics{
+        width: 45%;
+        z-index: 150;
+    }
+    .main-page .invest-new.projects-page.inner-page .projects-slider__slider-title{
+        padding-top: 8%!important
+    }
+    .main-page .inner-page.invest-new .projects-slider__img-box{
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+.all-projects__big-title{
+	color: #eef1f5;
+	font-size: 22.4rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	position: absolute;	
+	bottom: -2.6rem;
+    right: -24rem;
+}
+.all-projects__item{
+	position: relative;
+}
+.all-projects{
+	padding-top: 6.4rem;
+	&__descr{
+		position: relative;
+		z-index: 8;
+		padding: 11% 0 0 4.5%;
+		max-width: 79rem;
+	}
+	&__img{
+		position: relative;
+		z-index: 8;
+	}
+	&__sub-title{
+		max-width: 42rem;
+	}
+	.about-us-descr__title{
+		padding-bottom: 2.5rem;
+	}
+	.about-us-descr__title-small{
+		font-size: 2.2rem;
+		padding-bottom: 1.9rem;
+	}
+	.about-us-descr__text{
+		font-size: 1.4rem;
+		line-height: 2.65rem;
+		letter-spacing: 0.25px;
+		padding-bottom: 4.2rem;
+		max-width: 80rem;
+	}
+	.all-projects__sub-title{
+		max-width: 42rem;
+		line-height: 2.4rem;
+		letter-spacing: 0.45px;
+	}
+}
+.inner-page .all-projects__img{
+	padding: 0;
+	vertical-align: bottom;
+	left: -8rem;
+	padding-top: 10rem;
+	img{
+		max-width: 100%;
+	}
+}
+
+.inner-page .about-us__slider-item_second .all-projects__descr{
+	padding-top: 8.7%;
+	padding-left: 6.4%;
+	padding-right: 0;
+}
+.about-us__slider-item_second{
+	.all-projects__big-title{
+		right: auto;
+		left: -7.8rem;
+		bottom: 0rem;
+	}	
+	.all-projects__img{
+		left: auto;
+		right: -15.6rem;
+		padding-top: 22rem;
+	}
+}
+.about-us__slider-item_third{
+	margin-top: 12.4rem;
+	.all-projects__img{
+		padding-top: 3.5rem;
+		padding-left: 4.2rem;
+		left: auto;
+	}
+	.all-projects__descr{
+		padding-left: 7.4%;
+	}
+	.all-projects__big-title{
+		right: auto;
+		left: 29%;
+		bottom: 4rem;
+	}
+}
+.about-us__slider-item_fourth{
+	margin-top: 0.5rem;
+	margin-bottom: 12rem;
+	.all-projects__img{
+		    right: -17.8rem;
+    		padding-top: 17rem;
+	}
+	.all-projects__big-title{
+		bottom: 1.1rem;
+	}
+}
+.about-us__slider-item_fifth{
+	.all-projects__img{
+		padding-top: 17rem;
+	}
+	.all-projects__big-title{
+		bottom: 1.8rem;
+    	right: -94.2rem;
+	}
+}
+body.all-projects-page .content{
+	padding-bottom: 0;
+}
+
+@media screen and (max-width: 1199px) {
+	.all-projects__descr{
+		padding-left: 0;
+	}
+	.all-projects__big-title{
+		font-size: 150px;
+		bottom: -20px;
+	}
+	.inner-page .all-projects__img{
+		left: -1.5rem;
+	}
+	.inner-page .about-us__slider-item_second .all-projects__descr{
+		padding-left: 0;
+	}
+	.about-us__slider-item_second .all-projects__img{
+		left: auto;
+		right: -1.5rem;
+	}
+	.about-us__slider-item_second .all-projects__big-title{
+		left: 0;
+		bottom: -2rem;
+	}
+	.about-us__slider-item_third .all-projects__descr{
+		padding-left: 0;
+	}
+	.about-us__slider-item_third .all-projects__big-title{
+		bottom: -1rem;
+	}
+	.about-us__slider-item_fifth .all-projects__big-title{
+		bottom: -1rem;
+	}
+	.about-us__slider-item_third .all-projects__img{
+		left: auto;
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.all-projects__big-title{
+		left: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 90px;
+		line-height: 95px;
+		bottom: 0;
+	}
+	.all-projects__descr{
+		max-width: 100%;
+	}
+	.all-projects{
+		padding-top: 4rem;
+	}
+	.all-projects .about-us-descr__title-small{
+		padding-bottom: 1rem;
+	}
+	.all-projects .all-projects__sub-title{
+		padding-bottom: 2rem;
+	}
+	.about-us__slider-item_third{
+		margin-top: 0;
+	}
+	.about-us__slider-item_second .all-projects__big-title{
+		bottom: 0;
+	}
+	.about-us__slider-item_third .all-projects__big-title{
+		left: 0;
+	}
+	.about-us__slider-item_fourth{
+		margin-bottom: 0;
+	}
+	.all-projects .about-us__slider-item{
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.all-projects .all-projects__sub-title{
+		max-width: 100%;
+	}
+	.all-projects .about-us__slider-item + .about-us__slider-item{
+		padding-bottom: 0;
+	}
+	.all-projects__big-title{
+		font-size: 45px;
+		left: 0!important;
+		right: 0!important;
+		bottom: 0!important;
+	}
+	.about-us__slider-item_fifth .all-projects__big-title{
+		bottom: 0;
+	}
+	.all-projects .about-us__slider-item:last-child .about-us-descr{
+		padding-bottom: 4.2rem
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	.all-projects .about-us-descr__title-small{
+		font-size: 18px;
+	}
+	.all-projects .about-us-descr__title{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.all-projects .all-projects__sub-title{
+		padding-bottom: 1rem;
+	}
+	.all-projects__big-title{
+		font-size: 29px;
+	}
+	.projects-page footer{
+		margin-top: 0;
+	}
+}

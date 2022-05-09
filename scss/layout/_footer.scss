@@ -1,0 +1,253 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	height: 8rem; 
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+    -webkit-order: 3;	
+    .wrapper{
+        padding-left: 9.2rem;
+        padding-right: 9.2rem;
+        max-width: 100%;
+    }
+}
+
+.footer {
+	height: 6rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 4rem;
+	z-index: 1;
+}
+
+.copyright {
+	float: left;
+	font-family: Roboto, sans-serif;
+	color: #a6a9af;
+	text-shadow:  0 0;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 2;
+	position: relative;
+    top: -4px;
+    &__content {
+    	white-space: nowrap;
+    }
+}
+
+.soc-icon-three {
+	width: 2rem;
+	height: 2rem;
+	background: url('../img/soc-btn-three.png') center center no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	background-size: contain;
+}
+
+.soc-btns {
+	float: right;
+	font-size: 0;
+	margin-right: 0;
+	&__item {
+		font-size: 12px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+		margin-left: 3px;
+		position: relative;
+		&_vk {
+			padding-top: 5px;
+			padding-left: 4px;
+			@include sprite($vk);
+			height: 22px;
+		}
+		&_fb {
+			padding-top: 5px;
+			padding-left: 5px;
+			@include sprite($fb);
+			height: 22px;
+		}
+		&_tw {
+			// padding-top: 5px;
+			// padding-left: 4px;
+			// @include sprite($tw);
+			// height: 22px;
+			// width: 22px;
+
+			padding-top: 3px;
+		    padding-left: 0;
+		    background: none;
+		}
+		i {
+			font-size: 13px;
+		}
+	}
+	&__tooltip {
+		position: absolute;
+		left: 50%;
+		margin-left: -6px;
+		margin-top: -4px;
+		transform: translateX(-50%) rotate(-90deg);
+		opacity: 0;
+		transition: 0.3s;
+        top: 0px;    
+		span {
+			position: absolute;
+			color: #acabac;
+			font-family: Roboto;
+			font-size: 1.2rem;
+			font-weight: 400;
+			pointer-events: none;
+		}
+	}
+}
+
+.soc-btns__item:hover .soc-btns__tooltip {
+	margin-top: -10px;
+	opacity: 1;
+
+}
+.soc-btns__item_tw:hover .soc-btns__tooltip {
+	margin-top: -10px;
+}
+
+.dark-section .copyright__content {
+	color: #f1f1f1;
+}
+
+.fp-viewing-0-2 .dark-section {
+	.copyright__content {
+		color: #a6a9af;
+	}
+	.polit a{
+		color: #FFF;	
+	}
+}
+.fp-viewing-0-4 {
+	.copyright__content {
+		color: #FFF;
+	}
+	.polit a {
+			color: #a6a9af;	
+	}
+	.dark-section {
+		.copyright__content {
+			color: #a6a9af;
+		}
+		.polit a {
+		color: #FFF;	
+		}
+	}
+}
+.fp-viewing-0-4 .dark-section .copyright__content {
+	// color: #a6a9af;
+	// color: #fff;
+}
+
+.page-404 footer {
+	z-index: 15;
+}
+
+.projects-page {
+	.copyright {
+		.copyright__content {
+			color: #a6a9af;
+		}	
+	}
+	.dark-section {
+		.copyright {
+			.copyright__content {
+				color: #ffffff;
+			}	
+		}		
+	}
+}
+@media screen and (max-height: 850px) and (min-width: 1200px) {
+    .soc-btns{
+        transform: scale(0.8)
+    }
+    .soc-btns__tooltip span{
+        font-size: 1.6rem;
+    }
+    
+}
+@media (max-width: 767px) {
+	.fp-viewing-0-4 {
+		.copyright__content {
+			color: #a6a9af;
+		}	
+	}
+	
+	.fp-viewing-0-4 .polit a {
+		color: #a6a9af;
+	}
+	.fp-viewing-0-4 .dark-section .polit a {
+		color: #ffffff;	
+	}
+ 
+	.fp-viewing-0-4 .dark-section .copyright__content {
+		color: #FFF;
+	}
+ 
+}
+
+.icon {
+	&-vk {
+		&::before {
+			color: #78B9EB;
+		}
+	}
+	&-fb {
+		&::before {
+			color: #1E81CE;
+		}
+	}
+	&-tw {
+		&::before {
+			color: #2488FF;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1199px) {
+    footer{
+        .wrapper{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    }
+}
+
+// @media screen and (min-width: 992px) {
+	
+// }
+
+// @media screen and (max-width: 991px) {
+	
+// }
+
+// @media screen and (min-width: 768px) and (max-width: 991px) {
+	
+// }
+
+// @media screen and (max-width: 767px) {
+//     body.projects-page .copyright__content {
+//     	color: #a6a9af;
+//     }
+// }
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+	.soc-btns {
+	    position: relative;
+	    top: -2px;
+	}
+}
+

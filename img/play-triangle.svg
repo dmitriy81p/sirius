@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.563" height="13.75" viewBox="0 0 10.563 13.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a1c6e1;
+        stroke: #005592;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="play-triangle.svg" class="cls-1" d="M635.406,477.626v12.746l9.56-6.373Z" transform="translate(-634.906 -477.125)"/>
+</svg>
